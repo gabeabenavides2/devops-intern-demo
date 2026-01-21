@@ -8,4 +8,4 @@ def root():
 
 @app.get("/health")
 def health():
-    return {"status": "FAIL"}
+    return {"status": "ok"}
